@@ -76,15 +76,16 @@ $cleanEmail = sanitizeEmail(' User@EXAMPLE.COM ');
 
 ## Файлы
 
-- `email_validator.php` - Основные функции валидации
+- `email_validator.php` - Основные функции валидации (без вывода на экран)
+- `test_email_validator.php` - Базовые тесты функций
 - `email_examples.php` - Практические примеры использования
 - `README.md` - Документация
 
 ## Запуск примеров
 
 ```bash
-php email_validator.php    # Базовые примеры
-php email_examples.php     # Практические сценарии
+php test_email_validator.php  # Базовые тесты
+php email_examples.php        # Практические сценарии
 ```
 
 ## Возможности
